@@ -22,6 +22,7 @@
   "homepage": "https://github.com/larsgeb/3d-geology#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "gulp-connect": "^5.0.0"
   }
 }
