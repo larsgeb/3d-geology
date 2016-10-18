@@ -1,0 +1,27 @@
+{
+  "name": "3d-geology",
+  "version": "1.0.0",
+  "description": "A simple web-based program for visualizing typical (planar) geology",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zip -ryXq9 ../3d-geology-${npm_package_version}.zip ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsgeb/3d-geology.git"
+  },
+  "keywords": [
+    "geology"
+  ],
+  "author": "Lars Gebraad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larsgeb/3d-geology/issues"
+  },
+  "homepage": "https://github.com/larsgeb/3d-geology#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
